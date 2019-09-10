@@ -1,0 +1,296 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.headSection {
+    background: #fcf4e4;
+}
+.rightHeader {
+    background: #ffb20f;
+}
+.nav-link {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #000 !important;
+}
+.logoText {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #000 !important;
+    line-height: 1.2rem;
+}
+.arrowBox {
+    border: 2px solid #fff;
+    margin-right: 5.5rem;
+}
+.bottomHeader {
+    display: flex;
+    margin-top: 23rem;
+    margin-left: 3rem;
+}
+.compLogos {
+    height: 3rem;
+    width: 4rem;
+}
+.overTop
+{
+    margin-top: 5rem;
+}
+
+.overText {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.vl1 {
+    height: 3.4rem;
+    width: 0.2rem; 
+    background: #ffb20f;
+}
+.vl {
+    height: 3.6rem;
+    width: 0.2rem; 
+    background: #000;
+}
+.overlayBg {
+    background: url("./img/may\ fair\ 1.jpg") no-repeat ;
+    width: 45rem;
+    height: 20rem;
+    background-size: cover ;
+    background-position: center;
+}
+.overlayClear {
+    background: rgb(255, 255, 255, 0.15);
+    width:17rem;
+    height: 15rem;
+    position: relative;
+    top: 17%;
+}
+.overlayText {
+    padding: 6rem 2rem 3rem 3rem;
+    position: absolute;
+    z-index: 99;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+.tellBtn {
+    font-weight: bold;
+    font-size: 0.8rem;
+    background: none;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 0.08rem solid #ffb20f;
+}
+.tellBtn:hover{
+    border-bottom: 0.08rem solid #fff;
+    background: none;
+}
+.headerOverlay {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+.divImg {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.img1 {
+    width: 100%;
+    height: 90%;
+}
+.designText {
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.diffColor {
+    color: #ffb20f;
+}
+.designArea {
+    padding: 3rem  15rem 3rem 3rem;
+    line-height: 2rem;
+}
+.btnDiscover {
+    background: #ffb20f;
+    border-radius: 0px !important;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+.btnDiscover:hover {
+    background: #000;
+    color: #ffb20f;
+    transition: 2s;
+}
+.coloredSection {
+    background: #fcf4e4;
+}
+.img2 {
+    background-image: url('/img/pf-9.jpg');
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+.img3 {
+    background: url('img/pf-71.jpg') no-repeat;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    height: 28rem;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+}
+.arrows {
+    background: #000;
+    padding: 1rem;
+}
+.btnView {
+    background: none;
+    border-radius: 0px !important;
+    border: 1px solid #ffb20f;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #000;
+}
+.btnView:hover {
+    background: #000;
+    color: #ffb20f;
+    transition: 2s;
+    border: 0px;
+}
+
+
+.processArea {
+    background: url('img/mag\ 4.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+}
+.colProcess1, .colProcess2, .colProcess3, .colProcess4, .colProcess5, .colProcess6 {
+    border: 0.01rem solid #fff;
+}
+.colProcess1 {
+    padding-top: 22rem;
+}
+.colProcess2 {
+    padding-top: 24rem;
+}
+.colProcess3 {
+    padding-top: 26rem;
+}
+.colProcess4 {
+    padding-top: 26rem;
+}
+.colProcess5 {
+    padding-top: 24rem;
+}
+.colProcess6 {
+    padding-top: 22rem;
+}
+.img5 {
+    background: url('img/mag\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 9rem;
+    border-right: 0.8rem solid #fff;
+}
+.img6 {
+    background: url('img/mag2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 9rem;
+    border-right: 0.8rem solid #fff;
+}
+.img7 {
+    background: url('img/mag3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 9rem;
+}
+.btnRead {
+    color: #ffb20f;
+    background: none !important;
+    border: none; 
+    font-size: 0.7rem;
+}
+.btnRead:hover  {
+    color: #000;
+    text-decoration: #ffb20f;
+}
+.arrows1 {
+    background: #fff;
+    border: 1px solid #ffb20f;
+    padding: 0.5rem 1rem;
+    color: #000;
+    margin-top: 6rem;
+}
+.arrows1:hover {
+    background: #000;
+    color: #ffb20f;
+    border: none;
+    cursor: pointer;
+}
+
+
+#parallelogram {
+    width: 60rem;
+    height: 25rem;
+    transform: skew(20deg) rotate(5deg);
+    background: rgb(141, 201, 224);
+    border-radius: 20px;
+    margin: 0 auto;
+    /* position: absolute;
+    z-index: -99;
+    left: 15%; */
+  }
+
+  .form1 {
+      color: #e5e5e5;
+      padding: 1rem 1rem;
+      width: 18rem;
+      font-size: 0.8rem;
+      margin-left: 0px !important;
+  }
+  .btnGet {
+      color: #000;
+      background: #ffb20f;
+      border-radius: 0px !important;
+      border: none !important;
+      font-weight: bold;
+      font-size: 0.9rem;
+      padding: 1rem 1rem;
+  }
+  .btnGet:hover {
+      background: #fff;
+      color: #000;
+      border: 1px solid #000 !important;
+      transition: 2s;
+  }
+#rectangle {
+    width: 40rem;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    top: 442%;
+
+    left: 25%;
+}
